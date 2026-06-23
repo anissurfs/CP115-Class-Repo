@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Verify lab-2.fprg exists
-        run: test -f labs/lab02/lab-2.fprg
+        run: test -f labs/lab02/Lab-2.fprg
 
       - name: Verify exercise-1.fprg exists
         run: test -f labs/lab02/exercise-1.fprg
