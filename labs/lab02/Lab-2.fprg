@@ -12,7 +12,7 @@
         <parameters/>
         <body>
             <declare name="mealPrice" type="Integer" array="False" size=""/>
-            <declare name="finalPrice" type="Integer" array="False" size=""/>
+            <declare name="finalPrice" type="Real" array="False" size=""/>
             <input variable="mealPrice"/>
             <assign variable="finalPrice" expression="(mealPrice * 0.1) + (mealPrice * 0.05)"/>
             <output expression="finalPrice" newline="True"/>
