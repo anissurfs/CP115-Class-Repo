@@ -7,7 +7,7 @@ else:
         parkingFee = hours * 2
     else:
         hours = hours - 5
-        parkingFee = hours * 3 + 6
+        parkingFee = (hours * 3) + 6
 if parkingFee > 30:
     parkingFee = 30
 print(parkingFee)
