@@ -6,6 +6,6 @@ else:
     if weight <= 15:
         pass
     else:
-        exWeight = weight - 15 * 4
+        exWeight = (weight - 15) * 4
         finalPrice = exWeight + ticketPrice
 print(finalPrice)
