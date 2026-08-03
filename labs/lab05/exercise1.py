@@ -1,7 +1,7 @@
 print ("Your name:")
 name = input()
 print ("Your age:")
-age = input()
+age = int(input())
 print ("Your course code:")
 course_code = input()
 print ("Name:", name, type(name), "\nAge:", age, type(age), "\nCourse Code:", course_code, type(course_code))
