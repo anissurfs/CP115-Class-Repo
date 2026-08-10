@@ -1,6 +1,8 @@
+#Setting the item prices
 coffeeP = 3.50
 muffinP = 2.10
 waterP = 1.05
+
 coffeeQ = int(input("Coffee Quantity: "))
 muffinQ = int(input("Coffee Quantity: "))
 waterQ = int(input("Coffee Quantity: "))
