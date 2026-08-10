@@ -1,4 +1,13 @@
-# Escape Characters Exercise
-# Print the receipt shown in the lab, using \n for new lines and \t for columns.
-# Calculate every total, subtotal, and tax in your code. Do not type the money
-# amounts in directly. Show every amount with exactly two decimal places.
+print("Hello World how are you?")
+
+print("Hello\nWorld\nHow are you?")
+
+message = "Name: Ali\nAge : 20\nGrade: A"
+print(message)
+
+print ("Name Age Grade")
+print ("Ali 20 A")
+
+print ("Name\tAge\tGrade")
+print ("Ali\t20\tA")
+print ("Sarah\t19\tB+")
