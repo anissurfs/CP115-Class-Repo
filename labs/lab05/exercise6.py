@@ -1,5 +1,4 @@
-print("Time in minutes:")
-minute = int(input())
+minute = int(input("Time in minutes: "))
 hours = minute // 60
 remaining_minute = minute % 60
 print("Original minutes:", minute)
