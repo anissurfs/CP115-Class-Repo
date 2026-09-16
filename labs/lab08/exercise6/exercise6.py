@@ -14,7 +14,7 @@ else:
 if overtime_hours <= 8:
     overtime_pay = overtime_hours * (base_rate * 1.5)
 else:
-    overtime_pay = (8 * (base_rate * 1.5)) + ((overtime_hours - 8) * 2)
+    overtime_pay = (8 * (base_rate * 1.5)) + ((overtime_hours - 8) * 2 * base_rate)
 
 if is_weekend == "yes":
     overtime_pay = overtime_pay + (overtime_hours * 5)
