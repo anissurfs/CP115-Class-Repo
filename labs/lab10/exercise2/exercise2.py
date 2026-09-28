@@ -1,7 +1,16 @@
 num_days = int(input())
 danger_threshold = float(input())
+danger_days = 0
+total_temp = 0
+for count in range(1, num_days + 1):
+    temp = float(input())
 
+    if temp > danger_threshold:
+        danger_days += 1
 
+    total_temp += temp
+
+average_temp = total_temp/num_days
 
 print(danger_days)
 print(f"{average_temp:.1f}")
